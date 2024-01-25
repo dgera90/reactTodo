@@ -5,7 +5,7 @@ export default function App() {
   const [todo, setTodo] = useState()
   const [isDisabled, setIsDisabled] = useState(true)
 
-  function addTodo() {
+  const addTodo = () => {
     setTodo(todo);
     let li = document.createElement('li');
     let removeBtn = document.createElement('button');
@@ -24,7 +24,7 @@ export default function App() {
 
   }
 
-  function enableAddButton() {
+  const enableAddButton = () => {
     if (document.getElementById('input').value) {
       setIsDisabled(false)
     } else {
