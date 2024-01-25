@@ -1,0 +1,49 @@
+.btn{
+    margin:50px;
+    padding:10px;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: rgb(133, 6, 6);
+    color:white;
+    border-radius: 15px;
+    border:none; 
+}
+.btn:hover{
+    background-color: rgb(197, 13, 13);
+    cursor:pointer;
+}
+#addBtn{
+    margin: 20px;
+    font-size: 36px;
+    height: fit-content;
+    border: 10px wheat solid;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: wheat;
+    font-weight: bold;
+}
+#addBtn:disabled:hover{
+    cursor:not-allowed;
+}
+#addBtn:enabled:hover{
+    cursor: pointer;
+    background-color: rgb(236, 227, 209);
+    border:10px green solid;
+}
+#input{
+    margin-top: 100px;
+    width: 500px;
+    height: 50px;
+    font-size: 24px;
+}
+ol{
+    font-size: 26px;
+}
+div{
+    text-align: center;
+}
+.items{
+    width: 800px;
+    text-align: start;
+    height: 60px;
+}
